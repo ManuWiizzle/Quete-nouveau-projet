@@ -33,3 +33,5 @@ b76ec8,127.0.0.1,GET,http://localhost:8000/blog/show,1557760207,,200
 63da8c,127.0.0.1,GET,http://localhost:8000/blog/show/manuel-leger,1557760215,,200
 001930,127.0.0.1,GET,http://localhost:8000/blog/show/manuel-leger_,1557760220,5065e4,200
 5065e4,127.0.0.1,GET,http://localhost:8000/blog/show/manuel-leger_,1557760220,,404
+39fe47,127.0.0.1,GET,http://localhost:8000/,1557835966,,404
+0ca2d9,127.0.0.1,GET,http://localhost:8000/blog/show,1557835978,,200
