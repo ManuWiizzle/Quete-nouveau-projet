@@ -45,7 +45,7 @@ $a->setNamingStrategy(new \Doctrine\ORM\Mapping\UnderscoreNamingStrategy());
 $a->setQuoteStrategy(new \Doctrine\ORM\Mapping\DefaultQuoteStrategy());
 $a->setEntityListenerResolver(new \Doctrine\Bundle\DoctrineBundle\Mapping\ContainerAwareEntityListenerResolver($this));
 $a->setRepositoryFactory(new \Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory(new \Symfony\Component\DependencyInjection\Argument\ServiceLocator($this->getService, [
-    'App\\Repository\\AticleRepository' => ['privates', 'App\\Repository\\AticleRepository', 'getAticleRepositoryService.php', true],
+    'App\\Repository\\ArticleRepository' => ['privates', 'App\\Repository\\ArticleRepository', 'getArticleRepositoryService.php', true],
     'App\\Repository\\CategoryRepository' => ['privates', 'App\\Repository\\CategoryRepository', 'getCategoryRepositoryService.php', true],
 ])));
 
