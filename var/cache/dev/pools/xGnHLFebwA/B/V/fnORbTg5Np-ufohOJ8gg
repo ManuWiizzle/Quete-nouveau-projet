@@ -11,6 +11,9 @@
                 'targetEntity' => [
                     'App\\Entity\\Category',
                 ],
+                'inversedBy' => [
+                    'articles',
+                ],
                 'nullable' => [
                     1 => false,
                 ],

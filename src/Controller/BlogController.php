@@ -66,21 +66,26 @@ class BlogController extends AbstractController
         );
     }
 
-    /** @Route("/category/{category}",defaults={"categoryName" = "javascript"}, name="show_category") */
+    /** @Route("blog/category/{category}",defaults={"category" = "javascript"}, name="show_category") */
 
-    public function showByCategory(string $categoryName)
+    public function showByCategory(string $category)
     {
+        if (!$category) {
+            throw $this->createNotFoundException('No slug has been sent to search in categories');
+        }
         $category = $this->getDoctrine()
             ->getRepository(Category::class)
-            ->findOneBy(['name' => $categoryName]);
-var_dump($category);
+            ->findOneBy(['name' => $category]);
 
-        $article = $this->getDoctrine()
-            ->getRepository(Article::class)
-            ->findBy(['category' => $category]);
+        $articles= $category->getArticles();
+
+        if (!$articles) {
+            throw $this
+                ->createNotFoundException('No article has been found.');
+        }
 
         return $this->render('blog/category.html.twig', [
-            'articles' => $article]);
+            'articles' => $articles]);
     }
 
 
