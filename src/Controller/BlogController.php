@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -14,7 +15,7 @@ class BlogController extends AbstractController
     /**
      * Show all row from article's entity
      *
-     * @Route("/", name="index")
+     * @Route("/blog", name="index")
      * @return Response A response instance
      */
     public function index(): Response
@@ -66,28 +67,23 @@ class BlogController extends AbstractController
         );
     }
 
-    /** @Route("blog/category/{category}",defaults={"category" = "javascript"}, name="show_category") */
-
-    public function showByCategory(string $category)
+    /**
+     *
+     * @Route("/blog/category/{name}", name = "show_category")
+     *
+     * @param ("Category" category)
+     *
+     */
+    public function showByCategory(Category $category): Response
     {
-        if (!$category) {
-            throw $this->createNotFoundException('No slug has been sent to search in categories');
-        }
-        $category = $this->getDoctrine()
-            ->getRepository(Category::class)
-            ->findOneBy(['name' => $category]);
-
         $articles= $category->getArticles();
 
-        if (!$articles) {
-            throw $this
-                ->createNotFoundException('No article has been found.');
-        }
-
         return $this->render('blog/category.html.twig', [
-            'articles' => $articles]);
-    }
 
+                'articles' => $articles,
+            ]
+        );
+    }
 
 
 }
