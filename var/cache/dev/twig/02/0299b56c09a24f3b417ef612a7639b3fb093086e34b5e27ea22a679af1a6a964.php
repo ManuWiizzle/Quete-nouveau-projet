@@ -141,6 +141,8 @@ class __TwigTemplate_cd549b1ffd48e58c6a6d0646e3cc337d561d00e482ebda440ab5d35d3d7
         echo "\">
         Back to homepage.
     </a>
+
+
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -184,6 +186,8 @@ class __TwigTemplate_cd549b1ffd48e58c6a6d0646e3cc337d561d00e482ebda440ab5d35d3d7
     <a href=\"{{ path('app_index') }}\">
         Back to homepage.
     </a>
+
+
 {% endblock %}", "blog/index.html.twig", "/home/wilder19/Symfony/blog/templates/blog/index.html.twig");
     }
 }
