@@ -21,7 +21,7 @@ class srcApp_KernelDevDebugContainerUrlMatcher extends Symfony\Bundle\FrameworkB
             '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
             '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
             '/blog' => [[['_route' => 'index', '_controller' => 'App\\Controller\\BlogController::index'], null, null, null, false, false, null]],
-            '/blog/form' => [[['_route' => 'form_index', '_controller' => 'App\\Controller\\CategoryController::index'], null, null, null, false, false, null]],
+            '/category' => [[['_route' => 'form_index', '_controller' => 'App\\Controller\\CategoryController::index'], null, null, null, false, false, null]],
             '/' => [[['_route' => 'app_index', '_controller' => 'App\\Controller\\DefaultController::index'], null, null, null, false, false, null]],
         ];
         $this->regexpList = [

@@ -13,7 +13,7 @@ use App\Entity\Category;
 class CategoryController extends AbstractController
 {
     /**
-     * @Route("blog/form",
+     * @Route("/category",
      *     name="form_index"
      * )
      */
@@ -28,7 +28,7 @@ class CategoryController extends AbstractController
             $manager->persist($category);
             $manager->flush();
         }
-            return $this->render('blog/form.html.twig', ['form' => $form->createView()]);
+            return $this->render('category/form.html.twig', ['form' => $form->createView()]);
         }
 
 }

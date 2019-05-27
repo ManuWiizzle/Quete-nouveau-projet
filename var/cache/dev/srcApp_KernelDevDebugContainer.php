@@ -16,6 +16,6 @@ if (!\class_exists(srcApp_KernelDevDebugContainer::class, false)) {
 
 return new \ContainerCkItyDW\srcApp_KernelDevDebugContainer([
     'container.build_hash' => 'CkItyDW',
-    'container.build_id' => 'f3fda4cc',
-    'container.build_time' => 1558899120,
+    'container.build_id' => 'd7e0af8c',
+    'container.build_time' => 1558949010,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerCkItyDW');

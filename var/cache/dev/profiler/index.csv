@@ -519,3 +519,10 @@ c22ea6,192.168.1.24,GET,http://192.168.1.24:8000/blog/form?category%5Bname%5D=te
 e6e715,192.168.1.24,GET,http://192.168.1.24:8000/blog/form?category%5Bname%5D=test&category%5B_token%5D=Q3oksCGPhAWngTLF3A8PQpOe_YyGxw_6qtSWQNTY2V0,1558898873,,200
 a1f50d,192.168.1.24,GET,http://192.168.1.24:8000/blog/form?category%5Bname%5D=test&category%5B_token%5D=Q3oksCGPhAWngTLF3A8PQpOe_YyGxw_6qtSWQNTY2V0,1558899121,,200
 774588,192.168.1.24,GET,http://192.168.1.24:8000/blog/form?category%5Bname%5D=test&category%5B_token%5D=Q3oksCGPhAWngTLF3A8PQpOe_YyGxw_6qtSWQNTY2V0,1558899123,,200
+2c8e34,127.0.0.1,GET,http://0.0.0.0:8000/,1558948978,,200
+269e6d,127.0.0.1,GET,http://0.0.0.0:8000/favicon.ico,1558948978,44db5e,200
+44db5e,127.0.0.1,GET,http://0.0.0.0:8000/favicon.ico,1558948978,,404
+0e101e,127.0.0.1,GET,http://0.0.0.0:8000/category,1558948986,d56997,200
+d56997,127.0.0.1,GET,http://0.0.0.0:8000/category,1558948986,,404
+7537fb,127.0.0.1,GET,http://0.0.0.0:8000/category/form,1558948993,,200
+744f36,127.0.0.1,GET,http://0.0.0.0:8000/category,1558949010,,200
