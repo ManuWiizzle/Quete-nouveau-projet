@@ -11,8 +11,16 @@ include_once $this->targetDirs[3].'/vendor/symfony/http-kernel/Controller/Argume
 include_once $this->targetDirs[3].'/vendor/symfony/http-kernel/Controller/ArgumentResolver/ServiceValueResolver.php';
 
 return $this->privates['debug.argument_resolver.service'] = new \Symfony\Component\HttpKernel\Controller\ArgumentResolver\TraceableValueResolver(new \Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver(new \Symfony\Component\DependencyInjection\Argument\ServiceLocator($this->getService, [
+    'App\\Controller\\ArticleController::delete' => ['privates', '.service_locator.NUP9Hmn', 'get_ServiceLocator_NUP9HmnService.php', true],
+    'App\\Controller\\ArticleController::edit' => ['privates', '.service_locator.NUP9Hmn', 'get_ServiceLocator_NUP9HmnService.php', true],
+    'App\\Controller\\ArticleController::index' => ['privates', '.service_locator.eusJIZx', 'get_ServiceLocator_EusJIZxService.php', true],
+    'App\\Controller\\ArticleController::show' => ['privates', '.service_locator.NUP9Hmn', 'get_ServiceLocator_NUP9HmnService.php', true],
     'App\\Controller\\BlogController::showByCategory' => ['privates', '.service_locator..JzDQIR', 'get_ServiceLocator__JzDQIRService.php', true],
     'App\\Controller\\CategoryController::index' => ['privates', '.service_locator.Txvqv4R', 'get_ServiceLocator_Txvqv4RService.php', true],
+    'App\\Controller\\ArticleController:delete' => ['privates', '.service_locator.NUP9Hmn', 'get_ServiceLocator_NUP9HmnService.php', true],
+    'App\\Controller\\ArticleController:edit' => ['privates', '.service_locator.NUP9Hmn', 'get_ServiceLocator_NUP9HmnService.php', true],
+    'App\\Controller\\ArticleController:index' => ['privates', '.service_locator.eusJIZx', 'get_ServiceLocator_EusJIZxService.php', true],
+    'App\\Controller\\ArticleController:show' => ['privates', '.service_locator.NUP9Hmn', 'get_ServiceLocator_NUP9HmnService.php', true],
     'App\\Controller\\BlogController:showByCategory' => ['privates', '.service_locator..JzDQIR', 'get_ServiceLocator__JzDQIRService.php', true],
     'App\\Controller\\CategoryController:index' => ['privates', '.service_locator.Txvqv4R', 'get_ServiceLocator_Txvqv4RService.php', true],
 ])), ($this->privates['debug.stopwatch'] ?? ($this->privates['debug.stopwatch'] = new \Symfony\Component\Stopwatch\Stopwatch(true))));
