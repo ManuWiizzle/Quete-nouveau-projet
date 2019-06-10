@@ -2,225 +2,445 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c8d114-62b0-4c97-859e-c42721ff1655" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/navbar/navbar.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk.legacy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getAnnotations_CacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getAnnotations_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getArticleRepositoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getArticleSearchTypeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getBlogControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getCacheClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getCacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getCache_AppClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getCache_GlobalClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getCache_SystemClearerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getCategoryControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getCategoryRepositoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getCategoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getCategoryTypeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_CommandLoaderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_AboutService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_AssetsInstallService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_CacheClearService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_CachePoolClearService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_CachePoolDeleteService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_CachePoolPruneService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_CacheWarmupService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_ConfigDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_ConfigDumpReferenceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_ContainerDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_DebugAutowiringService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_EventDispatcherDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_FormDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineCache_ContainsCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineCache_DeleteCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineCache_FlushCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineCache_StatsCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_DiffCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_DumpSchemaCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_ExecuteCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_GenerateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_LatestCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_MigrateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_RollupCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_StatusCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_UpToDateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_PublicAlias_DoctrineMigrations_VersionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_RouterDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_RouterMatchService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_TranslationDebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_TranslationUpdateService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_XliffLintService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_Command_YamlLintService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getConsole_ErrorListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_ArgumentResolver_DefaultService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_ArgumentResolver_RequestAttributeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_ArgumentResolver_RequestService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_ArgumentResolver_ServiceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_ArgumentResolver_SessionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_ArgumentResolver_VariadicService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_DumpListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_FileLinkFormatter_UrlFormatService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_Security_UserValueResolverService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_Security_Voter_Security_Access_AuthenticatedVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_Security_Voter_Security_Access_SimpleRoleVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDebug_Security_Voter_VoteListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDefaultControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrineCache_Providers_Doctrine_Orm_DefaultMetadataCacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrineCache_Providers_Doctrine_Orm_DefaultQueryCacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrineCache_Providers_Doctrine_Orm_DefaultResultCacheService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_CacheClearMetadataCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_CacheClearQueryCacheCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_CacheClearResultCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_CacheCollectionRegionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_ClearEntityRegionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_ClearQueryRegionCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_DatabaseCreateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_DatabaseDropCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_DatabaseImportCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_Dbal_DefaultConnectionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_EnsureProductionSettingsCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_GenerateEntitiesCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_MappingConvertCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_MappingImportCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_MappingInfoCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_Orm_DefaultEntityManagerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_Orm_ProxyCacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_Orm_Validator_UniqueService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_QueryDqlCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_QuerySqlCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_SchemaCreateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_SchemaDropCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_SchemaUpdateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getDoctrine_SchemaValidateCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getFilesystemService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_ChoiceListFactory_CachedService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_FactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_RegistryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_ServerParamsService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_TypeExtension_CsrfService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_TypeExtension_Form_DataCollectorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_TypeExtension_Form_HttpFoundationService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_TypeExtension_Form_TransformationFailureHandlingService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_TypeExtension_Form_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_TypeExtension_Upload_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_TypeGuesser_DoctrineService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_TypeGuesser_ValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_Type_ChoiceService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_Type_EntityService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_Type_FileService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getForm_Type_FormService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getFragment_Renderer_InlineService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getHttpExceptionListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeAuthService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeCommandService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeCrudService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeEntityService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeFixturesService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeFormService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeFunctionalTestService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeMigrationService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeRegistrationFormService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeSerializerEncoderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeSerializerNormalizerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeSubscriberService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeTwigExtensionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeUnitTestService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeUserService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeValidatorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_AutoCommand_MakeVoterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_DoctrineHelperService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_FileManagerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_GeneratorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMaker_Renderer_FormTypeRendererService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getMonolog_Logger_SecurityService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getPropertyAccessorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getPropertyInfo_SerializerExtractorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getRedirectControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getRouter_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getRouting_LoaderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_AccessListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_AuthenticationUtilsService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_Authentication_Listener_Anonymous_MainService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_ChannelListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_Command_UserPasswordEncoderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_ContextListener_0Service.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_Csrf_TokenManagerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_Firewall_Map_Context_DevService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_Firewall_Map_Context_MainService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_PasswordEncoderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSecurity_Validator_UserPasswordService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSerializerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSerializer_Mapping_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSerializer_Mapping_ClassMetadataFactoryService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getServicesResetterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSessionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSession_Storage_NativeService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSwiftmailer_Command_DebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSwiftmailer_Command_NewEmailService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSwiftmailer_Command_SendEmailService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSwiftmailer_EmailSender_ListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSwiftmailer_Mailer_DefaultService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSwiftmailer_Mailer_Default_Plugin_MessageloggerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSwiftmailer_Mailer_Default_Transport_RealService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getSwiftmailer_TransportService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTemplateControllerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_ExtractorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_CsvService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_DatService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_IniService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_JsonService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_MoService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_PhpService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_PoService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_QtService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_ResService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_XliffService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_Loader_YmlService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_ReaderService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTranslation_WarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_Command_DebugService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_Command_LintService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_Controller_ExceptionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_Controller_PreviewErrorService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_ExceptionListenerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_Form_RendererService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_Runtime_HttpkernelService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_Runtime_SecurityCsrfService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getTwig_TemplateCacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getValidator_EmailService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getValidator_ExpressionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getValidator_Mapping_CacheWarmerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getVarDumper_Command_ServerDumpService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getWebProfiler_Controller_ExceptionService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getWebProfiler_Controller_ProfilerService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getWebProfiler_Controller_RouterService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getWebServer_Command_ServerLogService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getWebServer_Command_ServerRunService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getWebServer_Command_ServerStartService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getWebServer_Command_ServerStatusService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/getWebServer_Command_ServerStopService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/get_ServiceLocator_KTVqfp6Service.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/get_ServiceLocator_LSIKWsrService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/get_ServiceLocator_Txvqv4RService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/get_ServiceLocator__JzDQIRService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/removed-ids.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/Container9zEYEVk/srcApp_KernelDevDebugContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/category/form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/category/form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW.legacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getAnnotations_CacheService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getAnnotations_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getArticleRepositoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getArticleSearchTypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getBlogControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getCacheClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getCacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getCache_AppClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getCache_GlobalClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getCache_SystemClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getCategoryControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getCategoryRepositoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getCategoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getCategoryTypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_CommandLoaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_AboutService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_AssetsInstallService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_CacheClearService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_CachePoolClearService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_CachePoolDeleteService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_CachePoolPruneService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_CacheWarmupService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_ConfigDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_ConfigDumpReferenceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_ContainerDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_DebugAutowiringService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_EventDispatcherDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_FormDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineCache_ContainsCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineCache_DeleteCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineCache_FlushCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineCache_StatsCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_DiffCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_DumpSchemaCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_ExecuteCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_GenerateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_LatestCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_MigrateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_RollupCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_StatusCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_UpToDateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_PublicAlias_DoctrineMigrations_VersionCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_RouterDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_RouterMatchService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_TranslationDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_TranslationUpdateService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_XliffLintService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_Command_YamlLintService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getConsole_ErrorListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_ArgumentResolver_DefaultService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_ArgumentResolver_RequestAttributeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_ArgumentResolver_RequestService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_ArgumentResolver_ServiceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_ArgumentResolver_SessionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_ArgumentResolver_VariadicService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_DumpListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_FileLinkFormatter_UrlFormatService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_Security_UserValueResolverService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_Security_Voter_Security_Access_AuthenticatedVoterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_Security_Voter_Security_Access_ExpressionVoterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_Security_Voter_Security_Access_SimpleRoleVoterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDebug_Security_Voter_VoteListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDefaultControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrineCache_Providers_Doctrine_Orm_DefaultMetadataCacheService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrineCache_Providers_Doctrine_Orm_DefaultQueryCacheService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrineCache_Providers_Doctrine_Orm_DefaultResultCacheService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_CacheClearMetadataCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_CacheClearQueryCacheCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_CacheClearResultCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_CacheCollectionRegionCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_ClearEntityRegionCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_ClearQueryRegionCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_DatabaseCreateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_DatabaseDropCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_DatabaseImportCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_Dbal_DefaultConnectionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_EnsureProductionSettingsCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_GenerateEntitiesCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_MappingConvertCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_MappingImportCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_MappingInfoCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_Orm_DefaultEntityManagerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_Orm_ProxyCacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_Orm_Validator_UniqueService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_QueryDqlCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_QuerySqlCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_SchemaCreateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_SchemaDropCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_SchemaUpdateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getDoctrine_SchemaValidateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getFilesystemService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_ChoiceListFactory_CachedService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_FactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_RegistryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_ServerParamsService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_TypeExtension_CsrfService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_TypeExtension_Form_DataCollectorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_TypeExtension_Form_HttpFoundationService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_TypeExtension_Form_TransformationFailureHandlingService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_TypeExtension_Form_ValidatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_TypeExtension_Upload_ValidatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_TypeGuesser_DoctrineService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_TypeGuesser_ValidatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_Type_ChoiceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_Type_EntityService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_Type_FileService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getForm_Type_FormService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getFragment_Renderer_InlineService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getHttpExceptionListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeAuthService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeCrudService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeEntityService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeFixturesService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeFormService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeFunctionalTestService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeMigrationService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeRegistrationFormService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeSerializerEncoderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeSerializerNormalizerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeSubscriberService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeTwigExtensionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeUnitTestService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeUserService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeValidatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_AutoCommand_MakeVoterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_DoctrineHelperService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_FileManagerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_GeneratorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMaker_Renderer_FormTypeRendererService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getMonolog_Logger_SecurityService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getPropertyAccessorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getPropertyInfo_SerializerExtractorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getRedirectControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getRouter_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getRouting_LoaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_AccessListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_AuthenticationUtilsService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_Authentication_Listener_Anonymous_MainService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_ChannelListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_Command_UserPasswordEncoderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_ContextListener_0Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_Csrf_TokenManagerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_Firewall_Map_Context_DevService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_Firewall_Map_Context_MainService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_PasswordEncoderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSecurity_Validator_UserPasswordService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSerializerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSerializer_Mapping_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSerializer_Mapping_ClassMetadataFactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getServicesResetterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSessionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSession_Storage_NativeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSwiftmailer_Command_DebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSwiftmailer_Command_NewEmailService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSwiftmailer_Command_SendEmailService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSwiftmailer_EmailSender_ListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSwiftmailer_Mailer_DefaultService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSwiftmailer_Mailer_Default_Plugin_MessageloggerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSwiftmailer_Mailer_Default_Transport_RealService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getSwiftmailer_TransportService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTemplateControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_ExtractorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_CsvService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_DatService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_IniService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_JsonService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_MoService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_PhpService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_PoService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_QtService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_ResService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_XliffService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_Loader_YmlService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_ReaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTranslation_WarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_Command_DebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_Command_LintService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_Controller_ExceptionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_Controller_PreviewErrorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_ExceptionListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_Form_RendererService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_Runtime_HttpkernelService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_Runtime_SecurityCsrfService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getTwig_TemplateCacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getValidator_EmailService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getValidator_ExpressionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getValidator_Mapping_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getVarDumper_Command_ServerDumpService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getWebProfiler_Controller_ExceptionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getWebProfiler_Controller_ProfilerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getWebProfiler_Controller_RouterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getWebServer_Command_ServerLogService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getWebServer_Command_ServerRunService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getWebServer_Command_ServerStartService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getWebServer_Command_ServerStatusService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/getWebServer_Command_ServerStopService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/get_ServiceLocator_KTVqfp6Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/get_ServiceLocator_LSIKWsrService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/get_ServiceLocator_Txvqv4RService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/get_ServiceLocator__JzDQIRService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/removed-ids.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerCkItyDW/srcApp_KernelDevDebugContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/annotations.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/annotations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/-/i-GRsLuuJ6czzCdB0PEg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/C/aKTWdAZRqIYb+-O0tG2g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/C/aKTWdAZRqIYb+-O0tG2g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/J/H72CuuuJFmIyWxuymjNg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/R/0Oof8ybB2zIl+tEzwhhg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/R/0Oof8ybB2zIl+tEzwhhg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/U/Cd+PCJDxH3rCrnCz5v3g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/U/Cd+PCJDxH3rCrnCz5v3g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/V/1LkRSpU2f17MvA-r5yKw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/V/1LkRSpU2f17MvA-r5yKw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/+/Z/Nkxu9fho5rPZEIWfoBcw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/-/S/v04sDF+FszC8OqGu4+Ew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/0/H/5YvBFjjcghEve4kMcVWQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/0/H/5YvBFjjcghEve4kMcVWQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/0/H/J-Nco+JcaW71Ozk5SH5w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/0/H/J-Nco+JcaW71Ozk5SH5w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/0/J/kZvjbzqQWjywYl92mYTQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/0/J/kZvjbzqQWjywYl92mYTQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/0/S/LYmk-vIkOH9DPwtPIKRg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/0/S/LYmk-vIkOH9DPwtPIKRg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/1/D/QopZ0ygNRLjvUxKQGS1g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/1/N/A+FjMlTTl4dN9JYJShCA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/1/N/A+FjMlTTl4dN9JYJShCA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/1/N/XjHlLW0V-DP-vdrGKzaw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/1/N/XjHlLW0V-DP-vdrGKzaw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/1/O/uP9esyNkn0A7Nya-k8iA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/1/O/uP9esyNkn0A7Nya-k8iA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/2/C/6Q8Tsru61qZ9+CvvFipA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/2/C/6Q8Tsru61qZ9+CvvFipA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/2/C/OJ8cEIprpolTITJjsdeg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/2/C/OJ8cEIprpolTITJjsdeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/2/R/H0+ON7t67qJgboCfqZ5w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/2/R/H0+ON7t67qJgboCfqZ5w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/3/J/fueYNzLddr1kInkhKn1Q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/3/N/TjsKY6tAk15BJDzcBkbQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/3/N/TjsKY6tAk15BJDzcBkbQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/3/R/+oeNPSTO-SCoV3k7jSAw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/4/B/XShonjaZIIVAgLjdjWtg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/4/E/hw8odAyxtFN+VFfPcrdw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/4/T/1aHsVD4qf1JR7Io2YCjw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/4/W/iioyhjgcm8cG9ol1MFsg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/4/X/eThDn8HUuYU0Sgg6JEtA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/4/X/eThDn8HUuYU0Sgg6JEtA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/4/Y/DiglzuhZx91o+tEPoziA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/5/K/Hx7ZkAzuyRdTELDRcV+w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/5/K/Hx7ZkAzuyRdTELDRcV+w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/5/P/5XUiyfU5BuYeBSc2w3bQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/5/P/5XUiyfU5BuYeBSc2w3bQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/5/Y/ptce27IBAMbTZWiP4hbg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/5/Y/ptce27IBAMbTZWiP4hbg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/6/2/QS7Nd7rO0vk1PgHw9teA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/6/2/QS7Nd7rO0vk1PgHw9teA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/6/9/uozhLKTNfARQDSiqLk1Q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/6/B/3PXTEQzaxB+bqat83tjQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/6/J/Oo+u4PsnGX6K5Be-OsPw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/6/J/Oo+u4PsnGX6K5Be-OsPw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/6/Q/2WmCCiJD0Xcb62S7lDEA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/6/Q/2WmCCiJD0Xcb62S7lDEA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/6/X/eUMxO0kkf3SsvM-UmoKw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/7/A/EyZpsKvRG3XUDycjwOSg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/7/A/EyZpsKvRG3XUDycjwOSg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/7/A/qQhEpzn-Jdy-Hrh0N4SQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/7/A/qQhEpzn-Jdy-Hrh0N4SQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/7/J/yqkGC1W4hqNV4MgeFBsg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/7/Y/SNEaykoHSxd1USktW8mw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/8/2/Ghht58aL7+Q3eq2ILAPw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/8/X/CiKLMaSJPcYkiwWWs2uA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/8/X/CiKLMaSJPcYkiwWWs2uA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/9/W/zOY8ms0Cs18Wl3DiSRrQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/9/W/zOY8ms0Cs18Wl3DiSRrQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/A/G/DZUwxIhInZg3bYYDezJA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/A/G/DZUwxIhInZg3bYYDezJA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/A/S/Sq6CXYHyK4VCRrC3FOtw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/A/S/tjtbhL1sc5V1VKcuLV2g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/A/S/tjtbhL1sc5V1VKcuLV2g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/A/Z/ea221CeOxxct8j8fK6gw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/B/G/d0VBU2J72+a53yZUHJMQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/B/G/d0VBU2J72+a53yZUHJMQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/B/N/zW4FQGB9PsNJdaIsrGFA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/B/N/zW4FQGB9PsNJdaIsrGFA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/B/Q/hvbupTiNXRmGbv8-eHRg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/B/Q/hvbupTiNXRmGbv8-eHRg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/C/0/BRniY5krNDCajvVEbEMQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/C/0/BRniY5krNDCajvVEbEMQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/C/2/CJXQ7LA-D05zLNogODSA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/C/O/r92Sm4NUVN2RrOZ7ZnJQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/C/O/r92Sm4NUVN2RrOZ7ZnJQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/C/R/0cBkVzi2Rm1imSvD6I3w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/C/R/0cBkVzi2Rm1imSvD6I3w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/9/cu-oVjtxwXjTe85tYJDQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/9/cu-oVjtxwXjTe85tYJDQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/H/PvEhyJbjKIaa0mCPz2eA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/H/PvEhyJbjKIaa0mCPz2eA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/J/UffKJuqhfqrbgIqHlTmA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/L/eqJUVs4G-RxyoVkvTXNg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/L/eqJUVs4G-RxyoVkvTXNg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/O/sBJCX5VOLHvCKPUqc+aQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/O/sBJCX5VOLHvCKPUqc+aQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/U/Jwcb6mT9UlvE-KchWirA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/U/Jwcb6mT9UlvE-KchWirA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/W/Dglpy-cniTX6T8csCsGg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/X/mHNDLVATjL7OtxQpnBmQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/D/X/mHNDLVATjL7OtxQpnBmQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/4/0iyl4aSA+Ms30cKGQPjg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/4/0iyl4aSA+Ms30cKGQPjg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/9/JtFrLjsEeJsoBMIUJh8w" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/B/zNzTUTfBQYaaDxA0CcPQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/E/jXODftaBx8ek8syZj1Jg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/E/jXODftaBx8ek8syZj1Jg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/G/-j9vorXlCbf34N-9z4ow" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/G/-j9vorXlCbf34N-9z4ow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/K/3ddwC60HeaEHA95S9URw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/K/3ddwC60HeaEHA95S9URw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/K/eYp-25mIHH5NKmcM6BFg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/M/PYpbHoxtzX5sgbMx4AXg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/O/pAH49zhhG7XqzlI6NkIw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/E/O/pAH49zhhG7XqzlI6NkIw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/-/zxVtbK4d20YGxJEDcQVA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/9/HNmVqJOvqfw702hc5DUw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/9/HNmVqJOvqfw702hc5DUw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/A/WuZXKBlREml0C72elxtA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/A/WuZXKBlREml0C72elxtA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/G/hDPnWnBdBtgmMP1t1+Zw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/O/azstdxA+QUqM2wyDXSmg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/O/azstdxA+QUqM2wyDXSmg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/R/ShYkoUOT4Xsruit6Mmsg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/R/ShYkoUOT4Xsruit6Mmsg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/R/yFuDYH3BJKpMXKSp79hg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/S/VLbnDVAmgBBJRngnTi5g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/S/VLbnDVAmgBBJRngnTi5g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/U/TlM-ABKYydAQqxrM4PwA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/U/TlM-ABKYydAQqxrM4PwA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/Y/rbZ+IsfMPrdUkREd-ejQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/Y/rbZ+IsfMPrdUkREd-ejQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/Y/y5lxh1qppLOw4u5WF6YA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/Z/UX8wifFQffXDHptJPiXQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/F/Z/UX8wifFQffXDHptJPiXQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/A/AJb+CPFJMgkjEzfZnyZg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/A/AJb+CPFJMgkjEzfZnyZg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/E/WdK-acVdjgIgNVJeLw6w" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/F/K7heoeTr722bP4PMZI7g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/M/x3MjWRd+UQt7J6My5Eyg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/Q/ARmjIQiH50K2NRwecA9Q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/T/cYH0VDBtOHv91SAauA6g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/U/Ut+MxEXBkT+Mh6Z5OllA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/U/Ut+MxEXBkT+Mh6Z5OllA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/G/Y/xp4K9c4iGTMkLiVLbTyw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/H/3/MvjxsGU4VpcMbV-R8qqg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/H/9/CAiCrr2YzF3gdbqYrb4Q" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/H/9/CAiCrr2YzF3gdbqYrb4Q" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/H/A/Br2Vv4ogKJ5jqlwJBsYw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/I/1/ROJpIc-d9zT8K1qImt4Q" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/I/1/ROJpIc-d9zT8K1qImt4Q" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/I/3/YqmlKEqrGKLpmA0Waj0w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/I/3/YqmlKEqrGKLpmA0Waj0w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/I/O/1wAnt2wIpzm6+f1sXlsg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/I/V/K83BcXoH6EAAQejse2Dw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/I/V/K83BcXoH6EAAQejse2Dw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/I/Y/sr78Nyj5qLf+Gp4bnGMQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/8/2A1-qFm0E8eSZpRjO60w" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/8/t+IzPdeDaLuBE28u5M+A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/E/w0MYeEsFlzIVH0xzwIjQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/E/w0MYeEsFlzIVH0xzwIjQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/H/1ctvs8QT6cS7lnH6gLeQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/H/1ctvs8QT6cS7lnH6gLeQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/K/l7VmZ80aiCvaSWJvf7wA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/K/l7VmZ80aiCvaSWJvf7wA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/K/wWgcJpnRPHJsAZ034w7A" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/K/wWgcJpnRPHJsAZ034w7A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/L/IB-32i0hPteuufDcVjYg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/L/IB-32i0hPteuufDcVjYg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/L/ZRIGVDeFNMrv2dH-gesw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/L/ZRIGVDeFNMrv2dH-gesw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/P/M0JY4vmdtOuh5G-mQJTQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/S/CRgfGZbXWIKaIUWsuUsw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/S/CRgfGZbXWIKaIUWsuUsw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/J/S/qzDQr5VlZXtClnsxA6Sw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/+/HWK-TpgXVnhGUhrBWydA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/5/K7AmpoMRp579Hf-yoK+Q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/D/d2ez4+sLROmmTStrDUuA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/D/d2ez4+sLROmmTStrDUuA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/O/4ITJdLKord8ySqKoUzhg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/Q/f3rBEnBbpTqnNiPmpTsA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/Q/f3rBEnBbpTqnNiPmpTsA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/V/kfTURrvUg1NSGuJ6qCcg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/Z/B7-AMcmVvXGF+b2GTR9w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/K/Z/B7-AMcmVvXGF+b2GTR9w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/L/1/O+a-2GjD7i2vVKhy8n9g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/L/1/O+a-2GjD7i2vVKhy8n9g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/L/7/utIu+jQC+ICra+Frwgiw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/L/7/utIu+jQC+ICra+Frwgiw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/L/A/MLD1I14x4h3-mfB4msgw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/L/A/MLD1I14x4h3-mfB4msgw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/L/R/PhHcOmBmNRLQDZQ2XC4g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/L/X/-20evg6sQyVjyd2UcJuw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/L/Y/i0MM8cHrYVvoSnOiqRxg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/0/RuvVOhJfwpDKSn538TKA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/C/2AGSlWBqzN7WiIkZzHPQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/C/2AGSlWBqzN7WiIkZzHPQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/L/qNfZF0k8NN37nZCBjO9w" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/N/OSBL6weCk5rRyQXK8ZmQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/S/oEGB6F7MIKHF5AJKnzvA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/Y/0vw3Y5yc5cRJRscw4zyQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/Y/0vw3Y5yc5cRJRscw4zyQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/Y/a4uY2vVSNB1Tr+5Pt6gw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/Z/p3O1hEFZkPK19fisdqRA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/M/Z/p3O1hEFZkPK19fisdqRA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/N/3/jqrL3LL8tOj9ZEuGmhog" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/N/3/jqrL3LL8tOj9ZEuGmhog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/N/5/mRxwM2atGxkWOSAKs5bw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/N/5/mRxwM2atGxkWOSAKs5bw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/N/J/M-80wA2FG3jEr4xLMwHg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/N/L/7hn06r1T-g5uRBeHvoCQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/N/L/7hn06r1T-g5uRBeHvoCQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/N/P/9rFc5SaZ7XZxp-5ZCTyA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/N/V/88pP4ht9WUUjJ-lJLDSw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/9/Uxg6OTnml422yUXzZQdg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/9/Uxg6OTnml422yUXzZQdg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/C/O2eP+4AR1iNpOUjtcRtA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/H/EV3DlUKYQqOUa+mY9hWA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/H/EV3DlUKYQqOUa+mY9hWA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/J/DasDbDcyl9xR1C6PQ5nA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/M/mJCA7JvlbaC1yHc9i2+g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/S/-OrxtBzpqLcIdq56aPEg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/S/-OrxtBzpqLcIdq56aPEg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/S/Uw-8QyAwkiqstUpjQH0A" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/O/S/Uw-8QyAwkiqstUpjQH0A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/8/ahyOnnwucVXg6+m7la1Q" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/8/ahyOnnwucVXg6+m7la1Q" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/G/MSrKrAmJp8xpzDV+7IuQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/J/65PQ-J1pbYYV+aS+XS3g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/J/65PQ-J1pbYYV+aS+XS3g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/J/RMJ1lukqSh-4n0oNAjbQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/J/RMJ1lukqSh-4n0oNAjbQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/M/dvtjzByyc6R52DP0ZpYw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/V/1s+UAfLsIuJiiQx6r-lA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/V/1s+UAfLsIuJiiQx6r-lA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/V/IwqpSr1X7rnbgU5a2s-g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/P/V/IwqpSr1X7rnbgU5a2s-g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Q/2/OpskirTTK1TEwWkhxK-w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Q/2/OpskirTTK1TEwWkhxK-w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Q/5/fUR03-Jr9BiMvAkemPQg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Q/O/vCWWW-dq84V8ld9aiCCw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Q/Z/VSqqHKPsxi1ef-zVRbWQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/R/+/btBapQ3lVssqjXp0NNZg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/R/+/btBapQ3lVssqjXp0NNZg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/R/D/xw5rxYC0NAKcAVbaIKpQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/R/F/37I6ciWiS0C3CQmmGgFA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/R/F/37I6ciWiS0C3CQmmGgFA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/R/P/W6tqyqAAenzTc3km6UDQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/R/P/W6tqyqAAenzTc3km6UDQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/S/6/+yyw-9cjArnMASkmxItg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/S/B/oI4Owcyk668lJ20sWyBA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/S/C/uZIy4K2AznZQtWOfXTwg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/S/C/uZIy4K2AznZQtWOfXTwg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/S/G/QjRcPQohVwQlQPkzNldw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/S/G/QjRcPQohVwQlQPkzNldw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/S/O/dXw6ipSJ4b7JE6xvFVxQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/S/O/dXw6ipSJ4b7JE6xvFVxQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/8/RAYA7f3cgi6pEITwt97w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/8/RAYA7f3cgi6pEITwt97w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/C/rd+PMd0b9JwpaSXavC7g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/C/rd+PMd0b9JwpaSXavC7g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/N/fZUyuXWPIr9ZcGxEKI5Q" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/N/fZUyuXWPIr9ZcGxEKI5Q" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/V/s3SgEryTycFMw8d76ddQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/V/s3SgEryTycFMw8d76ddQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/W/BchEXkK0hFTSv9uHLNow" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/T/W/BchEXkK0hFTSv9uHLNow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/U/3/Hkg1KVkqSw8Au1xkvzfQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/U/9/072rYB0h6nqae59X9luQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/U/9/072rYB0h6nqae59X9luQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/U/G/N-meF9qLuTb-uoEqNxUA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/U/G/N-meF9qLuTb-uoEqNxUA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/U/J/agC1H76I5cswLTs6ds6A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/U/L/jDRZHx3EbOerWUWfe4yA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/U/L/jDRZHx3EbOerWUWfe4yA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/U/Q/MlXmlGcW4yhORCZOj-NA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/1/y7fPLoK5EmQ7z9wcRGmg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/2/Hg77vH89LbfNL5glg1Dg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/2/Hg77vH89LbfNL5glg1Dg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/6/fuxAQu15Mk-07oeThKkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/C/vTCAvjV+q1ZKE2dPp6zA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/C/vTCAvjV+q1ZKE2dPp6zA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/L/h3EyTkCN4xSxn5rMZTng" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/M/8eQ0TfauazgBmj8uUsTg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/M/8eQ0TfauazgBmj8uUsTg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/N/irWh94jiroqnUkOtm-VQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/S/YTMHwjJ9j55kLmoMhsdg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/S/YTMHwjJ9j55kLmoMhsdg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/U/VEmnHuJZbnu2bQmmy9sg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/U/VEmnHuJZbnu2bQmmy9sg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/V/U/s5qANffcu5rslPIlQ40w" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/2/tJVQLqYcnSYJuc+gADHQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/C/shn8d3GmEExSFwbGMZrQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/H/iBw5nCzsSCUshBx5vzkQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/I/pLnAHdfRyDFCwtz9PcHQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/J/D5wLhoUC3Uw9gLgtA2lg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/P/+5qHMvbHVvxJb8SxG8cg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/P/+5qHMvbHVvxJb8SxG8cg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/P/xbjysVQ3g7V7Bg0336+w" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/P/xbjysVQ3g7V7Bg0336+w" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/R/rnTGcT4kXILoQHuBQd5g" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/R/rnTGcT4kXILoQHuBQd5g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/U/TxOL61Cj-r6hrgRpzPEA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/U/TxOL61Cj-r6hrgRpzPEA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/Z/er1mI05tXBKxdFD-Uwig" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/W/Z/er1mI05tXBKxdFD-Uwig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/X/-/XkRKOnY79VaMLhXgOyKg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/X/H/8YKCDEesz0YidTB1+oug" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/X/H/8YKCDEesz0YidTB1+oug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/X/I/naSjp14eb0uN-eXYN65g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/X/J/fv5P5E8+6AQ5s5YT2bcQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/X/O/g5ELLYta3SVoiCEsD6Og" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/X/O/g5ELLYta3SVoiCEsD6Og" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Y/6/dnbjTxx+OmftajjsdY1w" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Y/F/nSqX6Udw4Jtj1TqTWkVQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Y/F/nSqX6Udw4Jtj1TqTWkVQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Y/H/9yE+gLqfqOLXGcexBNHQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Y/H/9yE+gLqfqOLXGcexBNHQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Y/S/b5bahugH4w8lWMr6vsJA" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Y/S/b5bahugH4w8lWMr6vsJA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Y/Y/8AZJ1EJ0tJcf1Is3D3Ng" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Y/Y/8AZJ1EJ0tJcf1Is3D3Ng" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/7/PzcfFbzS+XKXd+6doXzQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/B/PWEHkV+pLc+MtC+Q8aJQ" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/B/PWEHkV+pLc+MtC+Q8aJQ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/C/uUinibgbIkriLvuRWSmw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/F/LzncMTK63GJSrsoD8+2Q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/G/R0wk6WlqE2FRFabbERFQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/R/lTv3clhBqMZmEpsBaCvg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/R/lTv3clhBqMZmEpsBaCvg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/Y/NX9i-Ib8cErVwarmVExw" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/xGnHLFebwA/Z/Y/NX9i-Ib8cErVwarmVExw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.php.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainer.xml.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerCompiler.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerCompiler.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlGenerator.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/srcApp_KernelDevDebugContainerUrlMatcher.php.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/log/dev.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -238,58 +458,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Form/ArticleSearchType.php">
+        <entry file="file://$PROJECT_DIR$/templates/blog/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding>
-                <element signature="e#63#103#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="281">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Form/CategoryType.php">
+        <entry file="file://$PROJECT_DIR$/templates/blog/category.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#59#83#0#PHP" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-187" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/CategoryController.php">
+        <entry file="file://$PROJECT_DIR$/templates/blog/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-              <folding>
-                <element signature="e#34#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/BlogController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="e#71#139#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
+        <entry file="file://$PROJECT_DIR$/templates/category/form.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-858">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="132">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/navbar/navbar.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -310,12 +537,19 @@
         <option value="$PROJECT_DIR$/src/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/Form/ArticleSearchType.php" />
         <option value="$PROJECT_DIR$/src/Entity/Category.php" />
-        <option value="$PROJECT_DIR$/templates/blog/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Form/CategoryType.php" />
         <option value="$PROJECT_DIR$/templates/blog/form.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/BlogController.php" />
         <option value="$PROJECT_DIR$/src/Controller/CategoryController.php" />
         <option value="$PROJECT_DIR$/src/Form/ArticleType.php" />
+        <option value="$PROJECT_DIR$/templates/blog/index.html.twig" />
+        <option value="$PROJECT_DIR$/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/templates/navbar/navbar.html.twig" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
+        <option value="$PROJECT_DIR$/assets/css/app.scss" />
+        <option value="$PROJECT_DIR$/templates/category/form.html.twig" />
       </list>
     </option>
   </component>
@@ -423,13 +657,14 @@
       <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="69" />
     <option name="y" value="25" />
     <option name="width" value="926" />
-    <option name="height" value="1053" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -446,6 +681,39 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -453,6 +721,12 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -475,25 +749,7 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -511,6 +767,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -547,18 +804,19 @@
       <workItem from="1557840312477" duration="364000" />
       <workItem from="1557840698829" duration="29424000" />
       <workItem from="1558293110608" duration="28297000" />
-      <workItem from="1558881179128" duration="12925000" />
+      <workItem from="1558881179128" duration="15984000" />
+      <workItem from="1559724204376" duration="74000" />
+      <workItem from="1560157352501" duration="9773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71010000" />
+    <option name="totallyTimeSpent" value="83916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="25" width="1851" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18559557" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1900277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -571,7 +829,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.499723" visible="true" weight="0.2786177" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.499723" visible="true" weight="0.55183583" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500277" side_tool="true" weight="0.2786177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -644,30 +902,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/default/default.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/category.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -681,46 +919,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-946">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#30#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/category/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="e#34#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#71#139#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,6 +939,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/_delete_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/ArticleType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#71#139#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#34#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/ArticleSearchType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -745,26 +991,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article/_delete_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article/_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/ArticleType.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="-132">
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/js/src/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/build/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/build/app~style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/build/style.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navbar/navbar.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/category.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/category/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
