@@ -10,6 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
 use App\Entity\Article;
 use App\Entity\Category;
+use App\Entity\Tag;
 use App\Form\ArticleSearchType;
 
 
@@ -90,5 +91,5 @@ class BlogController extends AbstractController
         );
     }
 
-
 }
+

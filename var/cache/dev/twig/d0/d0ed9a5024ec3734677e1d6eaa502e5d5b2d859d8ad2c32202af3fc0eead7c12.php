@@ -108,19 +108,47 @@ class __TwigTemplate_5388c48504d8dda03757e3417983d8f56965e185f36a2bc57aa848265ed
             </tr>
         </tbody>
     </table>
+    <strong>Tags :</strong>
+    <ul>
+        ";
+        // line 26
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, (isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new RuntimeError('Variable "article" does not exist.', 26, $this->source); })()), "tags", [], "any", false, false, false, 26));
+        $context['_iterated'] = false;
+        foreach ($context['_seq'] as $context["_key"] => $context["tag"]) {
+            // line 27
+            echo "            <li><a href=\"/tag/";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["tag"], "id", [], "any", false, false, false, 27), "html", null, true);
+            echo "\"> ";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["tag"], "name", [], "any", false, false, false, 27), "html", null, true);
+            echo " </a></li>
+        ";
+            $context['_iterated'] = true;
+        }
+        if (!$context['_iterated']) {
+            // line 29
+            echo "            <li>No tags for this article</li>
+        ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['tag'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 31
+        echo "    </ul>
+
 
     <a href=\"";
-        // line 25
+        // line 34
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article_index");
         echo "\">back to list</a>
 
     <a href=\"";
-        // line 27
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article_edit", ["id" => twig_get_attribute($this->env, $this->source, (isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new RuntimeError('Variable "article" does not exist.', 27, $this->source); })()), "id", [], "any", false, false, false, 27)]), "html", null, true);
+        // line 36
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article_edit", ["id" => twig_get_attribute($this->env, $this->source, (isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new RuntimeError('Variable "article" does not exist.', 36, $this->source); })()), "id", [], "any", false, false, false, 36)]), "html", null, true);
         echo "\">edit</a>
 
     ";
-        // line 29
+        // line 38
         echo twig_include($this->env, $context, "article/_delete_form.html.twig");
         echo "
 ";
@@ -144,7 +172,7 @@ class __TwigTemplate_5388c48504d8dda03757e3417983d8f56965e185f36a2bc57aa848265ed
 
     public function getDebugInfo()
     {
-        return array (  124 => 29,  119 => 27,  114 => 25,  106 => 20,  99 => 16,  92 => 12,  84 => 6,  75 => 5,  57 => 3,  35 => 1,);
+        return array (  152 => 38,  147 => 36,  142 => 34,  137 => 31,  130 => 29,  120 => 27,  115 => 26,  106 => 20,  99 => 16,  92 => 12,  84 => 6,  75 => 5,  57 => 3,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -172,6 +200,15 @@ class __TwigTemplate_5388c48504d8dda03757e3417983d8f56965e185f36a2bc57aa848265ed
             </tr>
         </tbody>
     </table>
+    <strong>Tags :</strong>
+    <ul>
+        {% for tag in article.tags %}
+            <li><a href=\"/tag/{{ tag.id }}\"> {{ tag.name }} </a></li>
+        {% else %}
+            <li>No tags for this article</li>
+        {% endfor %}
+    </ul>
+
 
     <a href=\"{{ path('article_index') }}\">back to list</a>
 

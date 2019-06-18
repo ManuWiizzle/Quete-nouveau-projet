@@ -21,6 +21,15 @@
             </tr>
         </tbody>
     </table>
+    <strong>Tags :</strong>
+    <ul>
+        {% for tag in article.tags %}
+            <li><a href="/tag/{{ tag.id }}"> {{ tag.name }} </a></li>
+        {% else %}
+            <li>No tags for this article</li>
+        {% endfor %}
+    </ul>
+
 
     <a href="{{ path('article_index') }}">back to list</a>
 

@@ -65,17 +65,27 @@ class __TwigTemplate_4292f420f8273f056d9279cdc8e95cd64fe743170fe44d0faa22e8101cd
         <div class=\"collapse navbar-collapse\" id=\"navbarNav\">
             <ul class=\"navbar-nav\">
                 <li class=\"nav-item active\">
-                    <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
+                    <a class=\"nav-link\" href=\"";
+        // line 10
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_index");
+        echo "\">Home</a>
                 </li>
                 <li class=\"nav-item\">
                     <a class=\"nav-link\" href=\"#\">Features</a>
                 </li>
                 <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Pricing</a>
+                    <a class=\"nav-link\" href=\"";
+        // line 16
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article_index");
+        echo "\">Article</a>
                 </li>
                 <li class=\"nav-item\">
-                    <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>
+                    <a  class=\"nav-link\" href=\"";
+        // line 19
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("tag_index");
+        echo "\">Tag</a>
                 </li>
+
             </ul>
         </div>
     </nav>
@@ -95,7 +105,7 @@ class __TwigTemplate_4292f420f8273f056d9279cdc8e95cd64fe743170fe44d0faa22e8101cd
 
     public function getDebugInfo()
     {
-        return array (  60 => 2,  42 => 1,);
+        return array (  85 => 19,  79 => 16,  70 => 10,  60 => 2,  42 => 1,);
     }
 
     public function getSourceContext()
@@ -109,17 +119,18 @@ class __TwigTemplate_4292f420f8273f056d9279cdc8e95cd64fe743170fe44d0faa22e8101cd
         <div class=\"collapse navbar-collapse\" id=\"navbarNav\">
             <ul class=\"navbar-nav\">
                 <li class=\"nav-item active\">
-                    <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
+                    <a class=\"nav-link\" href=\"{{ path('app_index') }}\">Home</a>
                 </li>
                 <li class=\"nav-item\">
                     <a class=\"nav-link\" href=\"#\">Features</a>
                 </li>
                 <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Pricing</a>
+                    <a class=\"nav-link\" href=\"{{ path('article_index') }}\">Article</a>
                 </li>
                 <li class=\"nav-item\">
-                    <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>
+                    <a  class=\"nav-link\" href=\"{{ path('tag_index') }}\">Tag</a>
                 </li>
+
             </ul>
         </div>
     </nav>

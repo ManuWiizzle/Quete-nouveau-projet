@@ -418,6 +418,13 @@
         <argument type="service" id=".service_locator.KTVqfp6.App\Controller\DefaultController"/>
       </call>
     </service>
+    <service id="App\Controller\TagController" class="App\Controller\TagController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+      <tag name="container.service_subscriber"/>
+      <call method="setContainer">
+        <argument type="service" id=".service_locator.KTVqfp6.App\Controller\TagController"/>
+      </call>
+    </service>
     <service id="App\Form\ArticleSearchType" class="App\Form\ArticleSearchType" autowire="true" autoconfigure="true">
       <tag name="form.type"/>
     </service>
@@ -427,11 +434,18 @@
     <service id="App\Form\CategoryType" class="App\Form\CategoryType" autowire="true" autoconfigure="true">
       <tag name="form.type"/>
     </service>
+    <service id="App\Form\TagType" class="App\Form\TagType" autowire="true" autoconfigure="true">
+      <tag name="form.type"/>
+    </service>
     <service id="App\Repository\ArticleRepository" class="App\Repository\ArticleRepository" autowire="true" autoconfigure="true">
       <tag name="doctrine.repository_service"/>
       <argument type="service" id="doctrine"/>
     </service>
     <service id="App\Repository\CategoryRepository" class="App\Repository\CategoryRepository" autowire="true" autoconfigure="true">
+      <tag name="doctrine.repository_service"/>
+      <argument type="service" id="doctrine"/>
+    </service>
+    <service id="App\Repository\TagRepository" class="App\Repository\TagRepository" autowire="true" autoconfigure="true">
       <tag name="doctrine.repository_service"/>
       <argument type="service" id="doctrine"/>
     </service>
@@ -697,6 +711,7 @@
         <argument>App\Form\ArticleSearchType</argument>
         <argument>App\Form\ArticleType</argument>
         <argument>App\Form\CategoryType</argument>
+        <argument>App\Form\TagType</argument>
         <argument>Symfony\Component\Form\Extension\Core\Type\FormType</argument>
         <argument>Symfony\Component\Form\Extension\Core\Type\ChoiceType</argument>
         <argument>Symfony\Bridge\Doctrine\Form\Type\EntityType</argument>
@@ -942,7 +957,7 @@
       <argument type="service" id="form.registry"/>
     </service>
     <service id="form.extension" class="Symfony\Component\Form\Extension\DependencyInjection\DependencyInjectionExtension" public="false">
-      <argument type="service" id=".service_locator.Croq9pT"/>
+      <argument type="service" id=".service_locator.rMTNsdt"/>
       <argument type="collection">
         <argument key="Symfony\Component\Form\Extension\Core\Type\FormType" type="iterator">
           <argument type="service" id="form.type_extension.form.transformation_failure_handling"/>
@@ -2782,7 +2797,7 @@
       <factory class="Doctrine\ORM\EntityManager" method="create"/>
     </service>
     <service id="doctrine.orm.container_repository_factory" class="Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory" public="false">
-      <argument type="service" id=".service_locator.aqvQdqz"/>
+      <argument type="service" id=".service_locator.ttLt0SY"/>
     </service>
     <service id="doctrine.orm.manager_configurator.abstract" class="Doctrine\Bundle\DoctrineBundle\ManagerConfigurator" abstract="true">
       <argument type="collection"/>
@@ -4385,16 +4400,23 @@
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\DefaultController" class="App\Controller\DefaultController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\DefaultController" class="App\Controller\DefaultController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\DefaultController" class="App\Controller\DefaultController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\TagController" class="App\Controller\TagController" autowire="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\TagController" class="App\Controller\TagController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\TagController" class="App\Controller\TagController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Component\Form\FormTypeInterface.0.App\Form\ArticleSearchType" class="App\Form\ArticleSearchType" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Form\ArticleSearchType" class="App\Form\ArticleSearchType" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Component\Form\FormTypeInterface.0.App\Form\ArticleType" class="App\Form\ArticleType" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Form\ArticleType" class="App\Form\ArticleType" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Component\Form\FormTypeInterface.0.App\Form\CategoryType" class="App\Form\CategoryType" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Form\CategoryType" class="App\Form\CategoryType" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Component\Form\FormTypeInterface.0.App\Form\TagType" class="App\Form\TagType" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Form\TagType" class="App\Form\TagType" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\ArticleRepository" class="App\Repository\ArticleRepository" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Repository\ArticleRepository" class="App\Repository\ArticleRepository" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\CategoryRepository" class="App\Repository\CategoryRepository" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Repository\CategoryRepository" class="App\Repository\CategoryRepository" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\TagRepository" class="App\Repository\TagRepository" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Repository\TagRepository" class="App\Repository\TagRepository" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="maker.auto_command.make_auth" class="Symfony\Bundle\MakerBundle\Command\MakerCommand" public="false">
       <tag name="console.command" command="make:auth"/>
       <argument type="service" id="maker.maker.make_authenticator"/>
@@ -4581,7 +4603,19 @@
         <argument key="manager" type="service" id="doctrine.orm.default_entity_manager"/>
       </argument>
     </service>
-    <service id=".service_locator.x9WTNTM" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id=".service_locator.nor5DKm" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="tagRepository" type="service" id="App\Repository\TagRepository"/>
+      </argument>
+    </service>
+    <service id=".service_locator.s.PIIJ0" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="tag" type="service" id=".errored..service_locator.s.PIIJ0.App\Entity\Tag"/>
+      </argument>
+    </service>
+    <service id=".service_locator.yGDtzMq" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="App\Controller\ArticleController::delete" type="service" id=".service_locator.NUP9Hmn"/>
@@ -4590,12 +4624,20 @@
         <argument key="App\Controller\ArticleController::show" type="service" id=".service_locator.NUP9Hmn"/>
         <argument key="App\Controller\BlogController::showByCategory" type="service" id=".service_locator..JzDQIR"/>
         <argument key="App\Controller\CategoryController::index" type="service" id=".service_locator.Txvqv4R"/>
+        <argument key="App\Controller\TagController::delete" type="service" id=".service_locator.s.PIIJ0"/>
+        <argument key="App\Controller\TagController::edit" type="service" id=".service_locator.s.PIIJ0"/>
+        <argument key="App\Controller\TagController::index" type="service" id=".service_locator.nor5DKm"/>
+        <argument key="App\Controller\TagController::show" type="service" id=".service_locator.s.PIIJ0"/>
         <argument key="App\Controller\ArticleController:delete" type="service" id=".service_locator.NUP9Hmn"/>
         <argument key="App\Controller\ArticleController:edit" type="service" id=".service_locator.NUP9Hmn"/>
         <argument key="App\Controller\ArticleController:index" type="service" id=".service_locator.eusJIZx"/>
         <argument key="App\Controller\ArticleController:show" type="service" id=".service_locator.NUP9Hmn"/>
         <argument key="App\Controller\BlogController:showByCategory" type="service" id=".service_locator..JzDQIR"/>
         <argument key="App\Controller\CategoryController:index" type="service" id=".service_locator.Txvqv4R"/>
+        <argument key="App\Controller\TagController:delete" type="service" id=".service_locator.s.PIIJ0"/>
+        <argument key="App\Controller\TagController:edit" type="service" id=".service_locator.s.PIIJ0"/>
+        <argument key="App\Controller\TagController:index" type="service" id=".service_locator.nor5DKm"/>
+        <argument key="App\Controller\TagController:show" type="service" id=".service_locator.s.PIIJ0"/>
       </argument>
     </service>
     <service id=".service_locator.37xBtZ2" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
@@ -4667,12 +4709,13 @@
       <argument type="service" id="debug.argument_resolver.variadic.inner"/>
       <argument type="service" id="debug.stopwatch"/>
     </service>
-    <service id=".service_locator.Croq9pT" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id=".service_locator.rMTNsdt" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="App\Form\ArticleSearchType" type="service" id="App\Form\ArticleSearchType"/>
         <argument key="App\Form\ArticleType" type="service" id="App\Form\ArticleType"/>
         <argument key="App\Form\CategoryType" type="service" id="App\Form\CategoryType"/>
+        <argument key="App\Form\TagType" type="service" id="App\Form\TagType"/>
         <argument key="Symfony\Bridge\Doctrine\Form\Type\EntityType" type="service" id="form.type.entity"/>
         <argument key="Symfony\Component\Form\Extension\Core\Type\ChoiceType" type="service" id="form.type.choice"/>
         <argument key="Symfony\Component\Form\Extension\Core\Type\FormType" type="service" id="form.type.form"/>
@@ -4684,11 +4727,12 @@
         <argument key="doctrine.orm.default_listeners.attach_entity_listeners" type="service" id="doctrine.orm.default_listeners.attach_entity_listeners"/>
       </argument>
     </service>
-    <service id=".service_locator.aqvQdqz" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id=".service_locator.ttLt0SY" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="App\Repository\ArticleRepository" type="service" id="App\Repository\ArticleRepository"/>
         <argument key="App\Repository\CategoryRepository" type="service" id="App\Repository\CategoryRepository"/>
+        <argument key="App\Repository\TagRepository" type="service" id="App\Repository\TagRepository"/>
       </argument>
     </service>
     <service id="debug.security.voter.security.access.authenticated_voter" class="Symfony\Component\Security\Core\Authorization\Voter\TraceableVoter">
@@ -4887,6 +4931,12 @@
       <argument type="service" id="service_container"/>
       <factory service=".service_locator.KTVqfp6" method="withContext"/>
     </service>
+    <service id=".service_locator.KTVqfp6.App\Controller\TagController" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator_context" id="App\Controller\TagController"/>
+      <argument>App\Controller\TagController</argument>
+      <argument type="service" id="service_container"/>
+      <factory service=".service_locator.KTVqfp6" method="withContext"/>
+    </service>
     <service id=".service_locator._pu.0Tb" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
@@ -4979,12 +5029,13 @@
       <argument type="service" id="security.token_storage"/>
     </service>
     <service id="debug.argument_resolver.service.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver" public="false">
-      <argument type="service" id=".service_locator.x9WTNTM"/>
+      <argument type="service" id=".service_locator.yGDtzMq"/>
     </service>
     <service id="debug.argument_resolver.default.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\DefaultValueResolver" public="false"/>
     <service id="debug.argument_resolver.variadic.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\VariadicValueResolver" public="false"/>
     <service id=".errored..service_locator.NUP9Hmn.App\Entity\Article" class="App\Entity\Article"/>
     <service id=".errored..service_locator..JzDQIR.App\Entity\Category" class="App\Entity\Category"/>
+    <service id=".errored..service_locator.s.PIIJ0.App\Entity\Tag" class="App\Entity\Tag"/>
     <service id="console.command_loader" class="Symfony\Component\Console\CommandLoader\ContainerCommandLoader" public="true">
       <argument type="service" id=".service_locator._8xViNp"/>
       <argument type="collection">
@@ -5322,7 +5373,7 @@
     <service id="Psr\Log\LoggerInterface" alias="monolog.logger" public="false"/>
     <service id="Symfony\WebpackEncoreBundle\Asset\EntrypointLookupCollectionInterface" alias="webpack_encore.entrypoint_lookup_collection" public="false"/>
     <service id="Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface" alias="webpack_encore.entrypoint_lookup[_default]"/>
-    <service id="argument_resolver.controller_locator" alias=".service_locator.x9WTNTM"/>
+    <service id="argument_resolver.controller_locator" alias=".service_locator.yGDtzMq"/>
     <service id="twig.loader.filesystem" alias="twig.loader.native_filesystem" public="false"/>
     <service id="twig.loader" alias="twig.loader.native_filesystem"/>
     <service id=".service_locator.tSKDlY7" alias=".1_ServiceLocator~5yMCXOt" public="false"/>
