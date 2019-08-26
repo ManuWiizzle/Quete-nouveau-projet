@@ -174,6 +174,6 @@ class __TwigTemplate_5e18321462fc2f0c5b4fe2218ae1b9d10123ab77720bb43222d23e497ea
         Back to homepage.
     </a>
 
-{% endblock %}", "blog/category.html.twig", "/home/wilder19/Symfony/blog/templates/blog/category.html.twig");
+{% endblock %}", "blog/category.html.twig", "/home/manu/Quete-nouveau-projet/templates/blog/category.html.twig");
     }
 }

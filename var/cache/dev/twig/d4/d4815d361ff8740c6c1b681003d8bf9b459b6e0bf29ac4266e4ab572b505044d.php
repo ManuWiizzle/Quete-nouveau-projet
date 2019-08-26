@@ -134,6 +134,6 @@ class __TwigTemplate_4292f420f8273f056d9279cdc8e95cd64fe743170fe44d0faa22e8101cd
             </ul>
         </div>
     </nav>
-{% endblock %}", "navbar/navbar.html.twig", "/home/wilder19/Symfony/blog/templates/navbar/navbar.html.twig");
+{% endblock %}", "navbar/navbar.html.twig", "/home/manu/Quete-nouveau-projet/templates/navbar/navbar.html.twig");
     }
 }

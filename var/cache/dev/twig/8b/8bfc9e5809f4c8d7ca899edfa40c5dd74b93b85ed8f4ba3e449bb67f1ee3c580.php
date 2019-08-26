@@ -188,6 +188,6 @@ class __TwigTemplate_b8e6ed8bbfe99aaee96a1bac2d7fba224b790e5b89b24af3ee3258d0cbd
     </a>
 
 
-{% endblock %}", "blog/index.html.twig", "/home/wilder19/Symfony/blog/templates/blog/index.html.twig");
+{% endblock %}", "blog/index.html.twig", "/home/manu/Quete-nouveau-projet/templates/blog/index.html.twig");
     }
 }

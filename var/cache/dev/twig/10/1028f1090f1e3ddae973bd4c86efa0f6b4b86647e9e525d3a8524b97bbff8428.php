@@ -93,6 +93,6 @@ class __TwigTemplate_0baf62e12c0eb88149dce13c659eff7a217f77ba3c4532f1ed399a1a54f
 
 {%block body  %}
 <h1>\"Bienvenue sur mon blog\"</h1>
-{% endblock %}", "default/default.html.twig", "/home/wilder19/Symfony/blog/templates/default/default.html.twig");
+{% endblock %}", "default/default.html.twig", "/home/manu/Quete-nouveau-projet/templates/default/default.html.twig");
     }
 }

@@ -82,6 +82,6 @@ class __TwigTemplate_78952103829fafa34408b52d313625bca0f24252dc33e02994e41f07797
     {{ form_widget(form) }}
     <button class=\"btn\">{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
-", "tag/_form.html.twig", "/home/wilder19/Symfony/blog/templates/tag/_form.html.twig");
+", "tag/_form.html.twig", "/home/manu/Quete-nouveau-projet/templates/tag/_form.html.twig");
     }
 }

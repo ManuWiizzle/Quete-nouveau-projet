@@ -79,6 +79,6 @@ class __TwigTemplate_dd7a03ea03b4ebb382f015d8defd72487320680c192e2ea45a150c709e6
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ tag.id) }}\">
     <button class=\"btn\">Delete</button>
 </form>
-", "tag/_delete_form.html.twig", "/home/wilder19/Symfony/blog/templates/tag/_delete_form.html.twig");
+", "tag/_delete_form.html.twig", "/home/manu/Quete-nouveau-projet/templates/tag/_delete_form.html.twig");
     }
 }

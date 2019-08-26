@@ -129,6 +129,6 @@ class __TwigTemplate_ef3061787f4bda7349d34a976486faf7d94c382dcfb0d7945265fbdd6cd
 
     <a href=\"{{ path('article_index') }}\">back to list</a>
 {% endblock %}
-", "article/new.html.twig", "/home/wilder19/Symfony/blog/templates/article/new.html.twig");
+", "article/new.html.twig", "/home/manu/Quete-nouveau-projet/templates/article/new.html.twig");
     }
 }

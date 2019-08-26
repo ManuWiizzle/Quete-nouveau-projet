@@ -71,6 +71,6 @@ class __TwigTemplate_a85858f792157831c4de3a11e03974d1ecff97736fb20ddfa8098116561
     {
         return new Source("
 {{ slug }}
-", "blog/show.html.twig", "/home/wilder19/Symfony/blog/templates/blog/show.html.twig");
+", "blog/show.html.twig", "/home/manu/Quete-nouveau-projet/templates/blog/show.html.twig");
     }
 }

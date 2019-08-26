@@ -208,6 +208,6 @@ class __TwigTemplate_75290b73d908c2afcf6aa6d86e318cc3465a915bf2c66c688f7d26d8556
 
     <a href=\"{{ path('article_new') }}\">Create new</a>
 {% endblock %}
-", "article/index.html.twig", "/home/wilder19/Symfony/blog/templates/article/index.html.twig");
+", "article/index.html.twig", "/home/manu/Quete-nouveau-projet/templates/article/index.html.twig");
     }
 }

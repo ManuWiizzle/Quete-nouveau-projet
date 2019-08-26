@@ -89,6 +89,6 @@ class __TwigTemplate_1505a8236c7894be34eff130b7e54741b7158a6ff4129a040ab078b3a48
 {{ form_end(form) }}
 <a href=\"{{ path('app_index') }}\">
     Back to homepage.
-</a>", "category/form.html.twig", "/home/wilder19/Symfony/blog/templates/category/form.html.twig");
+</a>", "category/form.html.twig", "/home/manu/Quete-nouveau-projet/templates/category/form.html.twig");
     }
 }

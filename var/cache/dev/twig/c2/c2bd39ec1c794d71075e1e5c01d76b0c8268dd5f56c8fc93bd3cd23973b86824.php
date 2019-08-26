@@ -136,6 +136,6 @@ class __TwigTemplate_3b0c3bcbcb15a3ac8c7d37f2eea4bb75539a18dd9561758c3a8aaa4c6fd
 
     {{ include('tag/_delete_form.html.twig') }}
 {% endblock %}
-", "tag/edit.html.twig", "/home/wilder19/Symfony/blog/templates/tag/edit.html.twig");
+", "tag/edit.html.twig", "/home/manu/Quete-nouveau-projet/templates/tag/edit.html.twig");
     }
 }

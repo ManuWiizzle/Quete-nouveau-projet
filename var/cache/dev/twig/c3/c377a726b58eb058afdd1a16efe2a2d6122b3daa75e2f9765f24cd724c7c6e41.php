@@ -201,6 +201,6 @@ class __TwigTemplate_63e57c387b6959c7166582d417e6eb748e8061e3010d34348b98e95b062
 
     <a href=\"{{ path('tag_new') }}\">Create new</a>
 {% endblock %}
-", "tag/index.html.twig", "/home/wilder19/Symfony/blog/templates/tag/index.html.twig");
+", "tag/index.html.twig", "/home/manu/Quete-nouveau-projet/templates/tag/index.html.twig");
     }
 }
