@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use App\Service\Slugify;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -64,11 +65,14 @@ class Category
      * param Article $article
      * @return Category
      */
-    public function addArticle(Article $article): self
+    public function addArticle(Article $article, Slugify $slugify): self
     {
+
         if (!$this->articles->contains($article)) {
             $this->articles[] = $article;
             $article->setCategory($this);
+            $slug = $slugify->generate($article->getTitle());
+            $article->setSlug($slug);
         }
 
         return $this;

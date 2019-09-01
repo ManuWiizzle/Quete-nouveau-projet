@@ -224,12 +224,12 @@ class Category extends \App\Entity\Category implements \Doctrine\ORM\Proxy\Proxy
     /**
      * {@inheritDoc}
      */
-    public function addArticle(\App\Entity\Article $article): \App\Entity\Category
+    public function addArticle(\App\Entity\Article $article, \App\Service\Slugify $slugify): \App\Entity\Category
     {
 
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addArticle', [$article]);
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addArticle', [$article, $slugify]);
 
-        return parent::addArticle($article);
+        return parent::addArticle($article, $slugify);
     }
 
     /**
