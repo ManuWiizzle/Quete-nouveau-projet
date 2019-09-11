@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Article;
 use App\Form\ArticleType;
 use App\Repository\ArticleRepository;
+use Swift_Mailer;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -28,8 +29,12 @@ class ArticleController extends AbstractController
 
     /**
      * @Route("/new", name="article_new", methods={"GET","POST"})
+     * @param Request $request
+     * @param Slugify $slugify
+     * @param $mailer
+     * @return Response
      */
-    public function new(Request $request,  Slugify $slugify): Response
+    public function new(Request $request, Slugify $slugify, Swift_Mailer $mailer): Response
     {
 
         $article = new Article();
@@ -40,11 +45,26 @@ class ArticleController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
 
+
             $entityManager = $this->getDoctrine()->getManager();
             $entityManager->persist($article);
             $slug = $slugify->generate($article->getTitle());
             $article->setSlug($slug);
             $entityManager->flush();
+            $message = (new \Swift_Message('Un nouvel article vient d\'être publié !'))
+                ->setFrom($this->getParameter('mailer_from'))
+                ->setTo($this->getParameter('mailer_to'))
+                ->setBody(
+                    $this->renderView(
+                    // templates/article/mail/notification.html.twig
+                        'article/mail/notification.html.twig',
+                        ['article' => $article,
+                        'slug'=> $slug]
+                    ),
+                    'text/html'
+                )
+            ;
+    $mailer->send($message);
 
             return $this->redirectToRoute('article_index');
         }
