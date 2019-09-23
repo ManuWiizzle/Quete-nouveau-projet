@@ -70,7 +70,27 @@ class __TwigTemplate_bd2491052d9a6570abc0030baece97b641fe7e731ed136658dd059858a4
         $this->displayBlock('javascripts', $context, $blocks);
         // line 18
         echo "    </body>
-</html>
+    ";
+        // line 19
+        if (twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 19, $this->source); })()), "user", [], "any", false, false, false, 19)) {
+            // line 20
+            echo "        Bonjour ";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 20, $this->source); })()), "user", [], "any", false, false, false, 20), "email", [], "any", false, false, false, 20), "html", null, true);
+            echo " !
+        <a href=\"";
+            // line 21
+            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_logout");
+            echo "\"> Se déconnecter</a>
+    ";
+        } else {
+            // line 23
+            echo "        <a href=\"";
+            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
+            echo "\"> Se connecter</a>
+    ";
+        }
+        // line 25
+        echo "</html>
 ";
         
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
@@ -171,7 +191,7 @@ class __TwigTemplate_bd2491052d9a6570abc0030baece97b641fe7e731ed136658dd059858a4
 
     public function getDebugInfo()
     {
-        return array (  150 => 16,  141 => 15,  124 => 14,  111 => 7,  102 => 6,  84 => 5,  72 => 18,  69 => 15,  67 => 14,  63 => 12,  61 => 11,  57 => 9,  55 => 6,  51 => 5,  45 => 1,);
+        return array (  170 => 16,  161 => 15,  144 => 14,  131 => 7,  122 => 6,  104 => 5,  93 => 25,  87 => 23,  82 => 21,  77 => 20,  75 => 19,  72 => 18,  69 => 15,  67 => 14,  63 => 12,  61 => 11,  57 => 9,  55 => 6,  51 => 5,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -194,6 +214,12 @@ class __TwigTemplate_bd2491052d9a6570abc0030baece97b641fe7e731ed136658dd059858a4
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </body>
+    {% if app.user %}
+        Bonjour {{ app.user.email }} !
+        <a href=\"{{ path('app_logout') }}\"> Se déconnecter</a>
+    {% else %}
+        <a href=\"{{ path('app_login') }}\"> Se connecter</a>
+    {% endif %}
 </html>
 ", "base.html.twig", "/home/manu/Quete-nouveau-projet/templates/base.html.twig");
     }

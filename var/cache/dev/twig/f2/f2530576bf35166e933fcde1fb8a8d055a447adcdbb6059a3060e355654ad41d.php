@@ -45,9 +45,11 @@ Titre de l'article : ";
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new RuntimeError('Variable "article" does not exist.', 3, $this->source); })()), "title", [], "any", false, false, false, 3), "html", null, true);
         echo "
 
-Lien vers l'article : ";
+<a href=\"";
         // line 5
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\HttpFoundationExtension']->generateAbsoluteUrl("/blog/"), "html", null, true);
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new RuntimeError('Variable "article" does not exist.', 5, $this->source); })()), "slug", [], "any", false, false, false, 5), "html", null, true);
+        echo "\">Voir l'article.</a>";
         
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
 
@@ -77,6 +79,6 @@ Lien vers l'article : ";
 
 Titre de l'article : {{ article.title }}
 
-Lien vers l'article : {{ article.slug }}", "article/mail/notification.html.twig", "/home/manu/Quete-nouveau-projet/templates/article/mail/notification.html.twig");
+<a href=\"{{ absolute_url('/blog/') }}{{ article.slug }}\">Voir l'article.</a>", "article/mail/notification.html.twig", "/home/manu/Quete-nouveau-projet/templates/article/mail/notification.html.twig");
     }
 }

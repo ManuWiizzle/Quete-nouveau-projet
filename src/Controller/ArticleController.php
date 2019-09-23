@@ -44,6 +44,8 @@ class ArticleController extends AbstractController
 
 
         if ($form->isSubmitted() && $form->isValid()) {
+            $author = $this->getUser();
+            $article->setAuthor($author);
 
 
             $entityManager = $this->getDoctrine()->getManager();

@@ -16,4 +16,10 @@
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </body>
+    {% if app.user %}
+        Bonjour {{ app.user.email }} !
+        <a href="{{ path('app_logout') }}"> Se déconnecter</a>
+    {% else %}
+        <a href="{{ path('app_login') }}"> Se connecter</a>
+    {% endif %}
 </html>
