@@ -8,10 +8,15 @@
         [
             'Symfony\\Component\\Routing\\Annotation\\Route' => [
                 'path' => [
-                    '/category',
+                    '/',
                 ],
                 'name' => [
-                    'form_index',
+                    'category_index',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                    ],
                 ],
             ],
         ],

@@ -44,7 +44,7 @@ class __TwigTemplate_1505a8236c7894be34eff130b7e54741b7158a6ff4129a040ab078b3a48
         // line 2
         echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock(twig_get_attribute($this->env, $this->source, (isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 2, $this->source); })()), "name", [], "any", false, false, false, 2), 'row');
         echo "
-<button class=\"btn\">";
+<button>";
         // line 3
         echo twig_escape_filter($this->env, (((isset($context["button_label"]) || array_key_exists("button_label", $context))) ? (_twig_default_filter((isset($context["button_label"]) || array_key_exists("button_label", $context) ? $context["button_label"] : (function () { throw new RuntimeError('Variable "button_label" does not exist.', 3, $this->source); })()), "Save")) : ("Save")), "html", null, true);
         echo "</button>
@@ -55,9 +55,7 @@ class __TwigTemplate_1505a8236c7894be34eff130b7e54741b7158a6ff4129a040ab078b3a48
 <a href=\"";
         // line 5
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_index");
-        echo "\">
-    Back to homepage.
-</a>";
+        echo "\">Back to homepage.</a>";
         
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
 
@@ -85,10 +83,8 @@ class __TwigTemplate_1505a8236c7894be34eff130b7e54741b7158a6ff4129a040ab078b3a48
     {
         return new Source("{{ form_start(form) }}
     {{ form_row(form.name) }}
-<button class=\"btn\">{{ button_label|default('Save') }}</button>
+<button>{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
-<a href=\"{{ path('app_index') }}\">
-    Back to homepage.
-</a>", "category/form.html.twig", "/home/manu/Quete-nouveau-projet/templates/category/form.html.twig");
+<a href=\"{{ path('app_index') }}\">Back to homepage.</a>", "category/form.html.twig", "/home/manu/Quete-nouveau-projet/templates/category/form.html.twig");
     }
 }

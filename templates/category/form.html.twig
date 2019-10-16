@@ -1,7 +1,5 @@
 {{ form_start(form) }}
     {{ form_row(form.name) }}
-<button class="btn">{{ button_label|default('Save') }}</button>
+<button>{{ button_label|default('Save') }}</button>
 {{ form_end(form) }}
-<a href="{{ path('app_index') }}">
-    Back to homepage.
-</a>
+<a href="{{ path('app_index') }}">Back to homepage.</a>

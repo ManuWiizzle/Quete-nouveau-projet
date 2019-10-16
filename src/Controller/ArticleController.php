@@ -43,6 +43,7 @@ class ArticleController extends AbstractController
 
 
 
+
         if ($form->isSubmitted() && $form->isValid()) {
             $author = $this->getUser();
             $article->setAuthor($author);
@@ -92,6 +93,13 @@ class ArticleController extends AbstractController
      */
     public function edit(Request $request, Article $article, Slugify $slugify): Response
     {
+        $user = $this->getUser();
+        $author = $article->getAuthor();
+
+        if ($author != $user &&  !($this->isGranted("ROLE_ADMIN"))) {
+            throw  $this->createAccessDeniedException("Access Denied");
+        }
+
 
         $form = $this->createForm(ArticleType::class, $article);
         $form->handleRequest($request);

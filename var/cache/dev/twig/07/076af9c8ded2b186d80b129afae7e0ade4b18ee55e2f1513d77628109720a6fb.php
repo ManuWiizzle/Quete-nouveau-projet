@@ -83,18 +83,32 @@ class __TwigTemplate_25deb2a2e3443f269b3faf1f62f1305a58570fbe612682560147aa4913b
         // line 6
         echo "    <h1>Edit Article</h1>
 
+
+
     ";
-        // line 8
+        // line 10
         echo twig_include($this->env, $context, "article/_form.html.twig", ["button_label" => "Update"]);
         echo "
 
     <a href=\"";
-        // line 10
+        // line 12
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article_index");
         echo "\">back to list</a>
 
     ";
-        // line 12
+        // line 14
+        if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_AUTHOR")) {
+            // line 15
+            echo "        <a href=\"";
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("article_edit", ["id" => twig_get_attribute($this->env, $this->source, (isset($context["article"]) || array_key_exists("article", $context) ? $context["article"] : (function () { throw new RuntimeError('Variable "article" does not exist.', 15, $this->source); })()), "id", [], "any", false, false, false, 15)]), "html", null, true);
+            echo "\">Éditer</a>
+    ";
+        }
+        // line 17
+        echo "
+
+    ";
+        // line 19
         echo twig_include($this->env, $context, "article/_delete_form.html.twig");
         echo "
 ";
@@ -118,7 +132,7 @@ class __TwigTemplate_25deb2a2e3443f269b3faf1f62f1305a58570fbe612682560147aa4913b
 
     public function getDebugInfo()
     {
-        return array (  98 => 12,  93 => 10,  88 => 8,  84 => 6,  75 => 5,  57 => 3,  35 => 1,);
+        return array (  112 => 19,  108 => 17,  102 => 15,  100 => 14,  95 => 12,  90 => 10,  84 => 6,  75 => 5,  57 => 3,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -130,9 +144,16 @@ class __TwigTemplate_25deb2a2e3443f269b3faf1f62f1305a58570fbe612682560147aa4913b
 {% block body %}
     <h1>Edit Article</h1>
 
+
+
     {{ include('article/_form.html.twig', {'button_label': 'Update'}) }}
 
     <a href=\"{{ path('article_index') }}\">back to list</a>
+
+    {% if is_granted('ROLE_AUTHOR') %}
+        <a href=\"{{ path('article_edit', { 'id': article.id} ) }}\">Éditer</a>
+    {%endif%}
+
 
     {{ include('article/_delete_form.html.twig') }}
 {% endblock %}
